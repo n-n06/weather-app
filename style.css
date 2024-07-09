@@ -1,7 +1,7 @@
 /*General settings*/
 
 body {
-  background-color: 		#ff9d9d;
+  background-color: #ff9d9d;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
@@ -12,8 +12,8 @@ body {
 
 #weather-container {
   background: rgba(255,255,255,0.3);
-  max-width: 400px;
-  padding: 1.5rem;
+  max-width: 30rem;
+  padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -23,7 +23,7 @@ body {
 
 h2, label, p {
   color: 		#f9f9f9;
-  margin: 0.5rem 0;
+  margin: 0.3rem 0;
 }
 
 /*Button and Input field*/
@@ -68,8 +68,8 @@ button:hover {
 }
 
 #weather-icon {
-  width: 200px;
-  height: 200px;
+  width: 12rem;
+  height: 12rem;
   margin: 0 auto 10px;
   margin-bottom: 0;
   display: none;
@@ -104,4 +104,25 @@ button:hover {
 #hourly-heading {
   color: #fff;
   margin-top: 10px;
+}
+
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e6b5b8;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background:	#cfa2a5;
+  border-radius: 100vw;
+  border: 0.25rem solid #e6b5b8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b89093;
 }
